@@ -42,20 +42,99 @@ Step 6:Close the Android project.
  ```
 /*
 Program to Develop an application that uses Font Size using Android Studio .
-Developed by: 
-RegisterNumber:  
+Developed by: Chevula Naga Durga
+RegisterNumber:  212221230014
 */
 ```
 
 ## MainActivity.java:
+```
+package com.firstapp.fontsize;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import android.app.Activity;
+import android.graphics.Typeface;
+import android.graphics.Color;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 
+public class MainActivity extends AppCompatActivity {
+    float font = 24;
+    int i = 1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        final TextView t1 = (TextView)findViewById(R.id.textView1);
+        Button b1 = (Button)findViewById(R.id.button1);
+        b1.setOnClickListener(new View.OnClickListener()    {
+            public void onClick(View view) {
+                t1.setTextSize(font);
+                font = font+4;
+                if(font==40)
+                    font = 20;
+            }
+        });
+
+
+    }
+}
+``
 
 
 
 ## activity_main.xml:
+```
+package com.firstapp.fontsize;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import android.app.Activity;
+import android.graphics.Typeface;
+import android.graphics.Color;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+
+public class MainActivity extends AppCompatActivity {
+    float font = 24;
+    int i = 1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        final TextView t1 = (TextView)findViewById(R.id.textView1);
+        Button b1 = (Button)findViewById(R.id.button1);
+        b1.setOnClickListener(new View.OnClickListener()    {
+            public void onClick(View view) {
+                t1.setTextSize(font);
+                font = font+4;
+                if(font==40)
+                    font = 20;
+            }
+        });
+
+
+    }
+}
+
+
+```
 
 ## Output:
+![2](https://user-images.githubusercontent.com/94185707/233934109-2f892ca1-f698-4408-a140-9ef98ff24d94.jpg)
+![3](https://user-images.githubusercontent.com/94185707/233934261-e53c5872-ecf0-436c-8133-e2c839fcb711.jpg)
+
 
 
 
