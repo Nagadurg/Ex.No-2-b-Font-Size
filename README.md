@@ -129,8 +129,6 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-```
-
 ## Output:
 ![output](https://github.com/Nagadurg/Ex.No-2-b-Font-Size/blob/main/2.jpg?raw=true)
 ![output](https://github.com/Nagadurg/Ex.No-2-b-Font-Size/blob/main/2.jpg?raw=true)
