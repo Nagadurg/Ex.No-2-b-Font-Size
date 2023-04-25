@@ -132,8 +132,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## Output:
-![output](./2.jpg)
-![output]((./3.jpg)
+![output](./https://github.com/Nagadurg/Ex.No-2-b-Font-Size/blob/main/2.jpg)
+![output](./https://github.com/Nagadurg/Ex.No-2-b-Font-Size/blob/main/3.jpg)
+
 
 
 
