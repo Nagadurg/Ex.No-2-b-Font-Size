@@ -132,6 +132,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## Output:
+![output](./2.jpg)
+![output]((./3.jpg)
 
 
 
